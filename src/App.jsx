@@ -1,14 +1,21 @@
 import "./App.css";
-import Choices from "./components/Choices";
-import Navbar from "./components/Navbar";
-import Suggestion from "./components/Suggestion";
+import BottomNav from "./components/BottomNav";
+
+import Home from "./Home";
+import { Link, Route, Routes } from "react-router-dom";
+import Test from "./components/Test";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Choices />
-      <Suggestion />
+      <>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/books" element={<Test />} />
+        </Routes>
+
+        <BottomNav />
+      </>
     </div>
   );
 }
