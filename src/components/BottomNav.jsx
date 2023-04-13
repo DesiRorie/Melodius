@@ -7,7 +7,7 @@ const BottomNav = () => {
     <div className="bottomNav">
       <ul>
         <li>
-          <Link to="/Melodius/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/Melodius/test">Search</Link>
