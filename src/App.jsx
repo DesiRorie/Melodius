@@ -11,7 +11,7 @@ function App() {
       <>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Melodius/test" element={<Test />} />
+          <Route path="/test" element={<Test />} />
         </Routes>
 
         <BottomNav />
