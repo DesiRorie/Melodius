@@ -1,4 +1,5 @@
 {
+  "homepage": "https://desirorie.github.io/melodius",
   "name": "melodius",
   "private": true,
   "version": "0.0.0",
@@ -14,6 +15,8 @@
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.14",
+    "gh": "^2.8.9",
+    "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0"
