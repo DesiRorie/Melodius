@@ -4,6 +4,7 @@ import "./App.css";
 
 import Choices from "./components/Choices";
 import Suggestion from "./components/Suggestion";
+import YourShows from "./components/YourShows";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <Choices />
       <Suggestion />
+      <YourShows />
     </div>
   );
 };

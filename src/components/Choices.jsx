@@ -24,9 +24,8 @@ const Choices = () => {
         className="choicesButtons"
         style={{ backgroundColor: "#222", margin: "5px" }}
         variant="contained"
-        href="#contained-buttons"
       >
-        AudioBooks
+        Audiobooks
       </Button>
     </div>
   );

@@ -15,9 +15,15 @@ html {
   align-items: center;
   justify-content: space-between;
 }
+.navbar h2 {
+  margin-left: 2px;
+}
 .navbar ul li {
   display: inline-block;
   padding-left: 10px;
+}
+.navbar ul {
+  margin-right: 10px;
 }
 .choices {
   /* width: 50vw; */
@@ -35,16 +41,29 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 2px;
 }
 .suggestionBox {
-  height: 50px;
+  height: 100px;
   display: flex;
-  width: 190px;
+  width: 250px;
   background-color: #222;
   flex-direction: row;
   margin: 2px;
+  align-items: center;
 }
-#audioBooks {
+.suggestionBox h4 {
+  margin-left: 1%;
+}
+.suggestionBox:hover {
+  border: solid 1px rgba(164, 14, 251, 0.5);
+  transition: 0.2s;
+}
+.suggestionBox img {
+  width: 80px;
+  height: 100%;
+}
+#audioBo #audioBooks {
   border-radius: 17px;
   font-size: 11px;
 }
@@ -75,4 +94,52 @@ html {
 }
 .bottomNav ul li a:hover {
   color: red;
+}
+.yourShows h2 {
+  margin-left: 2px;
+}
+.yourShows {
+  display: flex;
+  flex-direction: column;
+}
+.showContainer {
+  display: flex;
+}
+.shows img {
+  height: 100%;
+  border-radius: 5px;
+}
+.shows {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+
+  border-radius: 5px;
+}
+.shows:hover {
+  border: solid 1px rgba(164, 14, 251, 0.5);
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .suggestions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .suggestionBox {
+    height: 80px;
+    display: flex;
+    width: 30%;
+    background-color: #222;
+    flex-direction: row;
+    margin: 2px;
+  }
+  .suggestionBox img {
+    width: 40%;
+  }
+  .suggestionBox h4 {
+    font-size: 14px;
+  }
 }
