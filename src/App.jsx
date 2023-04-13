@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/books" element={<Test />} />
+          <Route path="/Melodius/" element={<Home />} />
+          <Route path="/Melodius/test" element={<Test />} />
         </Routes>
 
         <BottomNav />

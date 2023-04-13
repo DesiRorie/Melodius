@@ -7,13 +7,13 @@ const BottomNav = () => {
     <div className="bottomNav">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/Melodius/">Home</Link>
         </li>
         <li>
-          <Link to="/books">Search</Link>
+          <Link to="/Melodius/test">Search</Link>
         </li>
         <li>
-          <Link to="/">Your Library</Link>
+          <Link to="/Melodius/">Your Library</Link>
         </li>
       </ul>
     </div>

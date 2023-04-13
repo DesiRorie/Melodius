@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="https://desirorie.github.io/Melodius/">
+    <BrowserRouter basename="/Melodius">
       <App />
     </BrowserRouter>
   </React.StrictMode>
