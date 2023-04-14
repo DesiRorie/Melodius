@@ -10,10 +10,10 @@ const BottomNav = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/Melodius/test">Search</Link>
+          <Link to="/test">Search</Link>
         </li>
         <li>
-          <Link to="/Melodius/">Your Library</Link>
+          <Link to="/">Your Library</Link>
         </li>
       </ul>
     </div>
