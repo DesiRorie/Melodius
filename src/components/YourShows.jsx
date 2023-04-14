@@ -10,6 +10,7 @@ const YourShows = () => {
         <div className="shows">
           <img src={joerogan} />
         </div>
+
         <div className="shows">
           <img src={lexfrid} />
         </div>
