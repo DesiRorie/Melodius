@@ -1,5 +1,7 @@
 .App {
   color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 body,
 html {
@@ -126,6 +128,19 @@ html {
   border: solid 1px rgba(164, 14, 251, 0.5);
   transition: 0.2s;
 }
+.searchDiv {
+  display: flex;
+  align-items: center;
+
+  opacity: 0.8;
+}
+.searchInput {
+  margin-left: 2px;
+  width: 200px;
+  height: 25px;
+  border-radius: 15px;
+  border: 0;
+}
 
 @media only screen and (max-width: 600px) {
   .suggestions {
@@ -148,6 +163,22 @@ html {
   }
   .suggestionBox h4 {
     font-size: 14px;
+  }
+  .searchDiv {
+    justify-content: center;
+
+    flex-direction: column;
+    /* height: 200px; */
+  }
+  .searchDiv h2 {
+    margin: 0;
+    margin-left: 9px;
+    align-self: start;
+  }
+  .searchInput {
+    width: 95%;
+    border-radius: 5px;
+    height: 35px;
   }
 }
 @media only screen and (max-width: 1068px) {

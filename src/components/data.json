@@ -1,0 +1,62 @@
+{
+  "artists": [
+    {
+      "name": "Drake",
+      "songs": [
+        {
+          "id": 1,
+          "name": "God's Plan"
+        },
+        {
+          "id": 2,
+          "name": "One Dance"
+        },
+        {
+          "id": 3,
+          "name": "In My Feelings"
+        },
+        {
+          "id": 4,
+          "name": "Hotline Bling"
+        },
+        {
+          "id": 5,
+          "name": "Started from the Bottom"
+        },
+        {
+          "id": 6,
+          "name": "Nonstop"
+        }
+      ]
+    },
+    {
+      "name": "Ariana Grande",
+      "songs": [
+        {
+          "id": 7,
+          "name": "Positions"
+        },
+        {
+          "id": 8,
+          "name": "thank u, next"
+        },
+        {
+          "id": 9,
+          "name": "No Tears Left to Cry"
+        },
+        {
+          "id": 10,
+          "name": "7 rings"
+        },
+        {
+          "id": 11,
+          "name": "Side to Side"
+        },
+        {
+          "id": 12,
+          "name": "break up with your girlfriend, i'm bored"
+        }
+      ]
+    }
+  ]
+}
