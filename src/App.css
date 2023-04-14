@@ -94,9 +94,11 @@ html {
 .bottomNav ul li a {
   color: white;
   text-decoration: none;
+  transition: 0.5s;
 }
 .bottomNav ul li a:hover {
-  color: red;
+  color: rgba(164, 14, 251);
+  transition: 0.5s;
 }
 .yourShows h2 {
   margin-left: 2px;
@@ -131,6 +133,7 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 0;
   }
   .suggestionBox {
     height: 60px;
