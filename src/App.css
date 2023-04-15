@@ -158,12 +158,22 @@ html {
   height: 170px;
   border-radius: 5px;
   margin: 4px;
+  transition: 0.5s;
+  position: relative;
 }
 .genres h3 {
   margin-top: 0%;
   margin-left: 5px;
 }
-
+.favorite-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.genres:hover {
+  transition: 0.5s;
+  opacity: 0.65;
+}
 /* medias below */
 
 @media only screen and (max-width: 600px) {
@@ -229,6 +239,7 @@ html {
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (max-width: 1068px) {
