@@ -72,14 +72,6 @@ const Genres = () => {
           onClick={() => handleIconClick("Pop")}
         />
       </div>{" "}
-      <div style={{ backgroundColor: "#00FFFF" }} className="genres">
-        <h3>Made For You</h3>
-        <FavoriteIcon
-          className="favorite-icon"
-          style={{ color: getIconColor("Made For You") }}
-          onClick={() => handleIconClick("Made For You")}
-        />
-      </div>{" "}
       <div style={{ backgroundColor: "brown" }} className="genres">
         <h3>Country</h3>
         <FavoriteIcon
@@ -168,14 +160,6 @@ const Genres = () => {
           onClick={() => handleIconClick("R&B")}
         />
       </div>{" "}
-      <div style={{ backgroundColor: "blue" }} className="genres">
-        <h3>Christian Gospel</h3>
-        <FavoriteIcon
-          className="favorite-icon"
-          style={{ color: getIconColor("Christian Gospel") }}
-          onClick={() => handleIconClick("Christian Gospel")}
-        />
-      </div>
     </div>
   );
 };
