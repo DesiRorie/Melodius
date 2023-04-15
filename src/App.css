@@ -142,7 +142,7 @@ html {
   height: 25px;
   border-radius: 15px;
   border: 0;
-  font-size: large;
+  font-size: 15px;
 }
 .genreBox {
   display: flex;
