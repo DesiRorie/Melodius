@@ -12,9 +12,6 @@ const BottomNav = () => {
         <li>
           <Link to="/test">Search</Link>
         </li>
-        <li>
-          <Link to="/">Your Library</Link>
-        </li>
       </ul>
     </div>
   );
