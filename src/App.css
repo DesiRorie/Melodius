@@ -89,6 +89,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding-right: 40px;
 }
 .bottomNav ul li {
   margin-right: 20px;
